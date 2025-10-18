@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DM Store APP </title>
-    <H1>DM Store APP ALGARETE</H1>
-    <script src="https://cdn.tailwindcss.com"> </script>    
+    <title>DM Sport - Dashboard Financiero</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body>
-    
+<body class="bg-gray-100">
+    <div class="min-h-screen bg-[#F3F4F6] text-gray-900">
+        <main class="p-4">
+            {{ $slot }}
+        </main>
+    </div>
 </body>
 </html>
