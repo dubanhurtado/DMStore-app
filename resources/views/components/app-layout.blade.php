@@ -6,8 +6,8 @@
     <title>DM Sport - Dashboard Financiero</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-gray-100">
-    <div class="min-h-screen bg-[#F3F4F6] text-gray-900">
+<body class="bg-gradient-to-b from-lime-300 to-yellow-300">
+    <div class="min-h-screen text-gray-900">
         <main class="p-4">
             {{ $slot }}
         </main>
